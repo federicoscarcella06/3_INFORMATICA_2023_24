@@ -1,3 +1,9 @@
+/**
+ * 
+ * 
+ * @author (Scarcella Federico) 
+ * @version (verivica di una data inserita dall'utente)
+ */
 import javax.swing.*;
 
 public class Es_1 {
