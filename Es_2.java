@@ -1,4 +1,10 @@
-import javax.swing.JOptionPane;
+/**
+ * 
+ * 
+ * @author (Scarcella Federico) 
+ * @version (contatore dei giorni passati dall'inizio dell'anno con verifica dell'input)
+ */
+import javax.swing.*;
 
 public class Es_2{
     public static void main(String[] args){
