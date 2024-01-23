@@ -13,6 +13,15 @@ public class Main{
         cognome = inp.nextLine();
 
         // Verificare se la lunghezza della stringa
+        if(inputString.length() == 1){
+
+            primalettera = inputString.substring(0, 1);
+
+            System.out.println("Le prime 4 lettere sono: " + primalettera);
+        }else{
+            System.out.println("La stringa inserita è troppo breve. Inserisci almeno 4 caratteri.");
+        }
+        
         if(inputString.length() >= 4){
 
             prime4Lettere = inputString.substring(0, 4);
