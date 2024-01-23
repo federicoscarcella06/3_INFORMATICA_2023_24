@@ -1,35 +1,23 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class Main{
-    public static void main(String[]args){
-      
-        String nome="", cognome ="", prime4lettere="",primalettera="";;
+public class Main {
+    public static void main(String[] args) {
+
+        String nome = "", cognome = "", inizioMail = "";
         Scanner inp = new Scanner(System.in);
 
-        System.out.print("Inserisci una il nome ");
+        System.out.print("Inserisci il nome: ");
         nome = inp.nextLine();
-      
-        System.out.print("Inserisci una il cognome");
+
+        System.out.print("Inserisci il cognome: ");
         cognome = inp.nextLine();
 
-        // Verificare se la lunghezza della stringa
-        if(inputString.length() == 1){
-
-            primalettera = inputString.substring(0, 1);
-
-            System.out.println("Le prime 4 lettere sono: " + primalettera);
-        }else{
-            System.out.println("La stringa inserita è troppo breve. Inserisci almeno 4 caratteri.");
+        if (cognome.length() >= 4) {
+            inizioMail = nome.substring(0, 1) + cognome.substring(0, 4);
+        } else {
+            inizioMail = nome.substring(0, 1) + cognome;
         }
-        
-        if(inputString.length() >= 4){
 
-            prime4Lettere = inputString.substring(0, 4);
-
-            System.out.println("Le prime 4 lettere sono: " + prime4Lettere);
-        }else{
-            System.out.println("La stringa inserita è troppo breve. Inserisci almeno 4 caratteri.");
-        }
+        System.out.println("L'inizio della mail è: " + inizioMail + "@studenti.marconiverona.edu.it");
     }
 }
-
