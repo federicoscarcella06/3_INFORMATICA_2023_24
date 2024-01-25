@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class Es_5{
+    public static void main(String[] args){
 
         String nome = "", cognome = "", inizioMail = "";
         Scanner inp = new Scanner(System.in);
@@ -12,9 +12,9 @@ public class Main {
         System.out.print("Inserisci il cognome: ");
         cognome = inp.nextLine();
 
-        if (cognome.length() >= 4) {
+        i (cognome.length() >= 4){
             inizioMail = nome.substring(0, 1) + cognome.substring(0, 4);
-        } else {
+        }else{
             inizioMail = nome.substring(0, 1) + cognome;
         }
 
