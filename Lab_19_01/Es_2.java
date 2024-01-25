@@ -10,7 +10,7 @@ public class Es_2{
         System.out.println("inserisci una parola da scomporre");
         parola = inp.nextLine();
         np = parola.length();
-        for(i=0;i<parola.length();i++){
+        for(i=0;i<np;i++){
             if(i>0){
                 System.out.print("-");
             }
