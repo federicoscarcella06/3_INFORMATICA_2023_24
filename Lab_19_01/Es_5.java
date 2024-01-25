@@ -12,7 +12,7 @@ public class Es_5{
         System.out.print("Inserisci il cognome: ");
         cognome = inp.nextLine();
 
-        i (cognome.length() >= 4){
+        if(cognome.length() >= 4){
             inizioMail = nome.substring(0, 1) + cognome.substring(0, 4);
         }else{
             inizioMail = nome.substring(0, 1) + cognome;
