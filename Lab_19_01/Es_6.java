@@ -14,7 +14,7 @@ public class Es_6 {
 
         Scanner inp = new Scanner(System.in);
         
-        System.out.println("digita stop per terminare il programma");
+        System.out.println("digita 'stop' per terminare il programma");
         
         do{
             System.out.println("Inserisci la tua mail per l'estrazione del dominio:");
