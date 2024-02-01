@@ -28,7 +28,7 @@ public class Es_6 {
                 dominio = mail.substring(posLet + 1);
     
                 System.out.println("Il dominio della mail è: " + dominio);
-            }else if(posLet != -1){
+            }else if(posLet == -1){
                 System.out.println("la mail inserita non è valida");
             }
             
@@ -43,4 +43,3 @@ public class Es_6 {
         }while(!mail.equalsIgnoreCase("stop"));
     }
 }
-
