@@ -1,0 +1,27 @@
+
+/**
+ * Aggiungi qui una descrizione della classe Es_array_stringhe
+ * 
+ * @author (il tuo nome) 
+ * @version (un numero di versione o una data)
+ */
+import java.util.*;
+public class Es_array_stringhe{
+    public static void main(String[]args){
+        String vet[];
+        
+        Scanner inp = new Scanner(System.in);
+        
+        vet = new String[5];
+        
+        for(int i= 0; i<5;i++){
+            System.out.println("inserisci una stringa");
+            vet[i] = inp.nextLine();
+        }
+        
+        for(int i= 0; i<5;i++){
+            System.out.println(vet[i]);
+
+        }
+    }
+}
