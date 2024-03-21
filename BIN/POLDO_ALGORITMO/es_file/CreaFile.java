@@ -13,7 +13,6 @@ public class CreaFile{
             do{
                 System.out.println("Scrivi il numero di studenti:");
                 n = inp.nextInt();
-                inp.nextLine();
             }while(n < 1);
             
             stu = new String[n];
