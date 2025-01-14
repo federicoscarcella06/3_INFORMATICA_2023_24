@@ -92,6 +92,19 @@ public class VerificaData {
         return this.aaaa;
     }
 
+    
+    public int getGg2() {
+        return this.gg2;
+    }
+
+    public int getMm2() {
+        return this.mm2;
+    }
+
+    public int getAaaa2() {
+        return this.aaaa2;
+    }
+
     public String verifica(int giorno, int mese, int anno, int giorno2, int mese2, int anno2) {
         boolean dataValida1 = false;
         boolean dataValida2 = false;
