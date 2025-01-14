@@ -15,7 +15,7 @@ public class VerificaData {
         aaaa2 = 0;
     }
 
-    public VerificaData(int giorno, int mese, int anno int giorno2, int mese2, int anno2) {
+    public VerificaData(int giorno, int mese, int anno, int giorno2, int mese2, int anno2) {
         int[] giorniInMese = new int[]{0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         boolean dataValida = false;
         boolean dataValida2 = false;
